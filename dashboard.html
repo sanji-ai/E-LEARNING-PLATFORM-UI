@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - eLearn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+  <div class="wrapper">
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="login.html">Login</a>
+      <label class="theme-switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider"></span>
+      </label>
+    </nav>
+
+    <main class="container">
+      <h2>Your Learning Progress</h2>
+      <div class="dashboard-cards">
+        <div class="course-progress">
+          <h4>Web Development</h4>
+          <div class="progress">
+            <div class="progress-bar" data-percent="70"></div>
+          </div>
+          <p>70% Completed</p>
+        </div>
+
+        <div class="course-progress">
+          <h4>Data Science</h4>
+          <div class="progress">
+            <div class="progress-bar" data-percent="40"></div>
+          </div>
+          <p>40% Completed</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 eLearn Platform. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
